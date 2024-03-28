@@ -75,3 +75,41 @@ body {
 .btn:hover {
     background-color: #4b4b4b;
 }
+
+.tabela, th, td {
+    font-size: 22px;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: lightgray;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.btn-icone {
+    margin-right: 10px;
+    background-color: #ffffff;
+    padding: 5px;
+    border: solid 1px #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media (max-width: 1166px) {
+    .caixa-texto {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+}
