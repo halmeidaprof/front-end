@@ -36,7 +36,8 @@
         <label for="valor" class="truculenta-100 label-input"> Valor: </label>
         <input type="number" id="valor" name="valor" class="caixa-texto">
 
-        <button type="button" class="truculenta-100 background-preto btn">Adicionar</button>
+        <button type="button" class="truculenta-100 background-preto btn"
+                onclick="salvar()">Adicionar</button>
     </div>
 
     <div class="margem-interna">
@@ -49,23 +50,12 @@
             </tr>
             </thead>
             <tbody id="table-body">
-            <tr>
-                <td>Laranja</td>
-                <td>R$ 7.00</td>
-                <td>
-                    <button class="material-symbols-outlined btn-icone">edit
-                    </button>
 
-                    <button class="material-symbols-outlined btn-icone">remove
-                    </button>
-
-                </td>
-            </tr>
             </tbody>
             <tfoot id="table-footer">
             <tr>
                 <td>Total</td>
-                <td>R$ 7.00</td>
+                <td> <span id="valor-total"></span> </td>
                 <td></td>
             </tr>
             </tfoot>
